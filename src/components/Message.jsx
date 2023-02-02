@@ -26,7 +26,7 @@ const Message = ({ message }) => {
           }
           alt=""
         />
-        <span>{message.date}</span>
+        <span>Just Now</span>
       </div>
       <div className="messageContent">
         <p>{message.text}</p>
